@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <title>Objects Ex 2</title>
+  <script>
+  
+  var library = [ 
+     {
+         author: 'Bill Gates',
+         title: 'The Road Ahead',
+         readingStatus: true
+     },
+     {
+         author: 'Steve Jobs',
+         title: 'Walter Isaacson',
+         readingStatus: true
+     },
+     {
+         author: 'Suzanne Collins',
+         title:  'Mockingjay: The Final Book of The Hunger Games', 
+         readingStatus: false
+     }];
+     
+     // Print all the book titles using a for in loop
+     for(var i = 0; i <= 2; i++){
+        console.log(library[i].title)
+     }
+     
+     // print all the book titles with readingStatus == true ( using for + if )
+     for(var i = 0; i <= 2; i++){
+     if(library[i].readingStatus == true){
+
+        console.log(library[i].title)
+     }
+     } 
+
+     // updated Steve Jobs to Wozniak
+     for(var i = 0; i <= 2; i++){
+        if(library[i].author == 'Steve Jobs'){
+            library[i].author = 'Steve Wozniak'
+        }
+        console.log(library[i].author);
+     }
+     
+     // add a new object book called "The Grapes of Wrath" written by "John Steinbeck" with readingStatus = to true
+     
+     
+     // delete bill gates' book
+     
+     
+    
+  </script>
+</head>
+
+<body>
+  Open Inspector > Console to see your results
+</body>
+</html>

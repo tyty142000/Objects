@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <title>Cars ex 1</title>
+  <script>
+    var cars ={
+      Beetle: {
+        color: "orange",
+        year: 2005
+      },
+      Camry: {
+        color: "purple",
+        year: 1998
+      }, 
+      Prius: {
+        color: "black",
+        year: 2014
+      },
+      Challenger: {
+        color: "red",
+        year: 2015
+      }
+    };
+
+    // How would we console the object Beetle?
+    console.log(cars.Beetle);
+
+    // How would we console the color of the Beetle?
+    console.log(cars.Beetle.color);
+
+    // How would we console the year of the Prius?
+    console.log(cars.Beetle.year);
+
+    // Update the year of the Prius to 2016
+    cars.Prius.year = 2016
+
+
+    // Console log the year of the Prius
+    console.log(cars.Prius.year);
+
+    // Add a new 2015 red Challenger to the cars object
+    
+
+    // delete the Camry car 
+    delete cars.Camry;
+    console.log(cars)
+
+    
+  </script>
+</head>
+
+<body>
+  Open Inspector > Console to see your results
+</body>
+</html>
